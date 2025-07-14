@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 42fae024163f59947b35030923fe6586
+guid: 122c664f938faaa408fcb98ff7160adb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Warrior_jump_0
+      name: Arrow-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 512
-        height: 1024
+        width: 174
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2257e528355e28f4981e324b1a0f1724
-      internalID: 1667435917
+      spriteID: df1e771631e1dca4d9557f840c266c1b
+      internalID: 389830035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Warrior_jump_1
+      name: Arrow-Photoroom_1
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 512
-        height: 1024
+        x: 206
+        y: 2
+        width: 173
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f819ad4ec4d90479ce2cd21fc813fa
-      internalID: 1625396191
+      spriteID: 40e70ff5dd9eeb74898565eac9671160
+      internalID: 203420021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 3
+        width: 170
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f56689d80646640ba9743235ba39ec
+      internalID: -1843511838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 12
+        width: 153
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480dfc6d97704604e8153d874c22d017
+      internalID: -2004948353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arrow-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 12
+        width: 153
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a416cf0d3ebb5d4f963214e68ed4b8a
+      internalID: 1544259151
       vertices: []
       indices: 
       edges: []
@@ -149,8 +212,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Warrior_jump_0: 1667435917
-      Warrior_jump_1: 1625396191
+      Arrow-Photoroom_0: 389830035
+      Arrow-Photoroom_1: 203420021
+      Arrow-Photoroom_2: -1843511838
+      Arrow-Photoroom_3: -2004948353
+      Arrow-Photoroom_4: 1544259151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

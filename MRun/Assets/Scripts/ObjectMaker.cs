@@ -11,7 +11,7 @@ public class ObjectMaker : MonoBehaviour
     private GameObject[] snailObject;
     void Start()
     {
-        
+        SpawnEnemyRoutine();
     }
 
     // Update is called once per frame
@@ -19,4 +19,20 @@ public class ObjectMaker : MonoBehaviour
     {
         
     }
+    
+    private void SpawnEnemyRoutine()
+    {
+        StartCoroutine("CreateFloorObject");
+    }
+    IEnumerator CreateFloorObject()
+    {
+        while (true)
+        {
+            int randomIndex = Random.Range(0, floorObject.Length);
+            Instantiate(floorObject[randomIndex], transform.position, Quaternion.identity);
+            yield return new WaitForSeconds(3f); // 1.5초 간격으로 생성
+        }
+        
+
+    }   
 }
