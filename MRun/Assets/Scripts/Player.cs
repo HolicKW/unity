@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     // Start is called before the first frame update
     private bool isJumping = false;
-
+    
     
     private Animator animator;
     void Start()

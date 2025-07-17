@@ -30,7 +30,7 @@ public class ObjectMaker : MonoBehaviour
         {
             int randomIndex = Random.Range(0, floorObject.Length);
             Instantiate(floorObject[randomIndex], transform.position, Quaternion.identity);
-            yield return new WaitForSeconds(3f); // 1.5초 간격으로 생성
+            yield return new WaitForSeconds(2f); // 1.5초 간격으로 생성
         }
         
 

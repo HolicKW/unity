@@ -15,5 +15,9 @@ public class MoveEnemy : MonoBehaviour
     void Update()
     {
         transform.position += Vector3.left * speed * Time.deltaTime;
+        if(gameObject.transform.position.x < -10.0f)
+        {
+            Destroy(gameObject);
+        }
     }
 }
